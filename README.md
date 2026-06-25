@@ -1,95 +1,144 @@
-# Eduard — Python / AI Engineer
+# Eduard - AI / LLM Engineer and Python Backend Developer
 
-Основной фокус: Python backend, AI-ассистенты, RAG-системы, Telegram-боты, LLM-интеграции и прикладные AI-инструменты для бизнес-задач.
+I build practical AI systems, RAG applications, Telegram bots, document-processing pipelines and backend services for business workflows.
 
-## Стек
+My main focus is Python-based AI engineering: LLM integrations, retrieval-augmented generation, knowledge bases, AI assistants, Telegram bots, document processing, API integrations and backend logic for applied AI products.
 
-Python, FastAPI, Aiogram, PostgreSQL, Docker, SQL, REST API, RAG, embeddings, FAISS, LLM integrations, Telegram Bot API, prompt engineering, file processing, automation.
+## What I Work On
 
-## Что делаю
+* AI assistants for business use cases
+* RAG systems and document-based knowledge bases
+* Telegram bots with AI and API integrations
+* Python backend services for AI products
+* PDF, DOCX, OCR and structured data extraction workflows
+* LLM-powered automation and multi-step AI workflows
+* Prompt engineering, AI behavior testing and evaluation flows
+* REST API integrations, webhooks and backend automation
 
-- backend-сервисы на Python;
-- AI-ассистенты и AI-агенты;
-- RAG-системы и базы знаний;
-- Telegram-боты с LLM-интеграцией;
-- обработку документов, аудио, видео и структурированных данных;
-- интеграции с внешними API;
-- проектирование backend-логики и пользовательских сценариев.
+## Core Tech Stack
 
-## Избранные проекты
+**Backend and APIs:** Python, FastAPI, REST API, PostgreSQL, SQL, Docker, Git
+**AI and LLM:** OpenAI-compatible APIs, Claude API, Ollama, LangChain, RAG, embeddings, FAISS, vector search, prompt engineering, function calling, structured output
+**Bots and Automation:** Aiogram, Telegram Bot API, CRM/API integrations, webhooks, async workflows
+**Documents and Media:** PDF, DOCX, OCR, file processing, information extraction, audio/video processing pipelines
+
+## Featured Projects
 
 ### BotForge
 
-Showcase-проект конструктора AI-ботов-консультантов с базой знаний и мультипровайдерными LLM.
+AI bot builder showcase with knowledge base support, retrieval flow, multi-provider LLM integration, bot management, testing, logs and analytics.
 
-Репозиторий:  
+Repository:
 https://github.com/UFP-21/botforge-showcase
 
-Что показывает:
+What it demonstrates:
 
-- AI-боты поверх базы знаний;
-- retrieval / knowledge base flow;
-- подключение нескольких LLM-провайдеров;
-- backend-архитектура;
-- логи, тестирование и аналитика.
+* AI bot builder product logic
+* Knowledge base and retrieval flow
+* Multi-provider LLM integration
+* Bot management and testing workflows
+* Logging and analytics concepts
+* Backend architecture for AI-powered products
+
+This repository is published as a showcase project. Some internal logic, private data and product-specific workflows are not public.
+
+---
 
 ### Gaz21 RAG Assistant
 
-Telegram-бот и backend-логика AI-ассистента по ремонту автомобиля ГАЗ-21.
+Python Telegram bot with RAG backend for technical repair assistance based on a structured knowledge base.
 
-Репозиторий:  
+Repository:
 https://github.com/UFP-21/gaz21-rag-assistant-showcase
 
-Что показывает:
+Demo Telegram bot:
+https://t.me/gaz21_assistant_bot
 
-- Python Telegram bot;
-- RAG-подход;
-- FAISS retrieval;
-- выбор базы знаний по серии автомобиля;
-- интеграция LLM;
-- логирование запросов и ответов;
-- подготовка проекта к серверному размещению.
+What it demonstrates:
 
-### Remaster+Loop
+* Python Telegram bot development
+* RAG-based answer generation
+* FAISS retrieval
+* LLM integration
+* Multiple knowledge base routing
+* User state and FSM logic
+* Logging of prompts and responses
+* Deployment-ready project structure
 
-Публичный репозиторий с кодом веб-приложения для обработки аудио- и видеоконтента.
+The bot may be temporarily unavailable because it currently runs in local test mode. Source PDFs, FAISS databases, API keys, logs and user data are not published.
 
-Репозиторий:  
+---
+
+### Remaster+Loop Media Tool
+
+Backend-focused media processing web application for preparing audio and video content.
+
+Repository:
 https://github.com/UFP-21/remaster-loop-media-tool
 
-Что показывает:
+What it demonstrates:
 
-- backend-логику обработки файлов;
-- пайплайны аудио- и видеоподготовки;
-- работу с FFmpeg;
-- обрезку, удаление тишины, crossfade, loop;
-- экспорт готовых файлов;
-- прикладную автоматизацию.
+* Python file-processing pipeline
+* FFmpeg-based media processing
+* Audio trimming
+* Silence removal
+* Crossfade and looping
+* Video merging
+* Clip generation
+* Export automation
+* Practical backend workflow for media preparation
+
+This is a public code repository that demonstrates backend logic, file handling and media-processing automation.
+
+---
 
 ### Neuro Prompt Studio
 
-Case study проекта для проектирования, тестирования и улучшения системных промптов.
+Case study for prompt engineering workflows, AI agent behavior testing, multi-agent scenarios and controlled prompt improvement.
 
-Репозиторий:  
+Repository:
 https://github.com/UFP-21/neuro-prompt-studio-case-study
 
-Что показывает:
+What it demonstrates:
 
-- prompt engineering как инженерный процесс;
-- мультиагентные сценарии;
-- eval loop;
-- controlled patching;
-- регрессионную проверку поведения AI-агентов.
+* Prompt engineering as an engineering workflow
+* AI behavior testing
+* Multi-agent scenario design
+* Evaluation loops
+* Controlled prompt patching
+* Regression testing for AI behavior
+* Prompt version comparison
+* Safe prompt improvement workflow
 
-## Дополнительно
+This repository is published as a case study. Source code, internal prompt logic and product-specific workflows are not public.
 
-Часть проектов опубликована в showcase-формате. В открытый доступ не выкладываются приватные ключи, реальные данные, внутренние промпты, логи пользователей, векторные базы и чувствительные материалы.
+## Repository Types
 
-По запросу могу показать:
+Some repositories contain public source code. Others are published as showcase or case-study repositories because they involve private logic, sensitive data, internal workflows, API keys, logs, source documents or project-specific materials that should not be published openly.
 
-- архитектурные схемы;
-- демонстрационные видео;
-- backend flow;
-- описание RAG-логики;
-- примеры сценариев тестирования AI-систем;
-- демонстрацию работающих ботов.
+I do not publish:
+
+* API keys or `.env` files
+* private prompts
+* real user data
+* logs with sensitive information
+* original proprietary documents
+* FAISS/vector databases built from private documents
+* internal business workflows that should remain private
+
+## Portfolio Focus
+
+This GitHub profile is focused on applied AI engineering and backend development:
+
+* AI assistants
+* LLM integrations
+* RAG systems
+* Telegram bots
+* Python backend services
+* document AI
+* workflow automation
+* AI evaluation and prompt testing
+
+## Contact
+
+Available for freelance and contract work related to AI assistants, RAG systems, Telegram bots, document processing, AI automation and Python backend development.
