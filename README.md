@@ -1,57 +1,54 @@
-# Eduard — Python / AI Engineer
+# Eduard — AI / LLM Engineer & Python Backend Developer
 
-Основной фокус: Python backend, AI-ассистенты, RAG-системы, AI-агенты и прикладные LLM-интеграции.
+[English](README.md) | [Русский](README_RU.md)
 
-## Стек
+I build practical AI systems for real workflows: RAG assistants, AI chatbots, document-processing pipelines, Telegram bots, and Python backends for LLM applications.
 
-Python, FastAPI, PostgreSQL, Docker, Redis, SQL, REST API, RAG, embeddings, FAISS, AI agents, LLM integrations, Telegram bots, prompt engineering.
+My work usually covers the full product flow: defining the logic, preparing the knowledge source, building the backend, integrating the model, testing failure cases, and preparing the solution for deployment.
 
-## Что делаю
+## Main focus
 
-- backend-сервисы на Python / FastAPI
-- AI-ассистенты и AI-агенты
-- RAG-системы и базы знаний
-- интеграции LLM в бизнес-процессы
-- автоматизация процессов через API и AI-инструменты
-- тестирование и улучшение AI-логики
+- RAG assistants and document-based knowledge bases
+- AI chatbots and Telegram bots
+- Python and FastAPI backends for LLM applications
+- OpenAI-compatible APIs, LangChain, FAISS, embeddings
+- Prompt testing, evaluation, and controlled improvement
+- PDF, DOCX, OCR, and structured data extraction
+- API integrations, webhooks, and workflow automation
 
-## Избранные проекты
+## Featured projects
 
-### BotForge
+| Project | What it demonstrates | Repository type |
+|---|---|---|
+| [BotForge](https://github.com/UFP-21/botforge-showcase) | Multi-provider AI bot builder, document knowledge base, retrieval flow, prompt configuration, testing, publishing, and analytics | Showcase / case study |
+| [Neuro Prompt Studio](https://github.com/UFP-21/neuro-prompt-studio-case-study) | Structured prompt generation, simulated-user testing, LLM evaluation, controlled prompt improvement, guardrail validation, and statistics | Showcase / case study |
+| [Gaz21 RAG Assistant](https://github.com/UFP-21/gaz21-rag-assistant-showcase) | Python Telegram bot, series-aware RAG, FAISS retrieval, catalog search, LLM integration, logging, and token accounting | Public source code |
+| [Remaster+Loop](https://github.com/UFP-21/remaster-loop-media-tool) | Local Streamlit application for audio and video processing, FFmpeg workflows, looping, merging, mastering, and export automation | Public source code |
 
-Showcase-проект конструктора AI-ботов-консультантов с базой знаний и мультипровайдерными LLM.
+## Core stack
 
-Репозиторий:
-https://github.com/UFP-21/botforge-showcase
+**Backend and APIs:** Python, FastAPI, REST API, PostgreSQL, SQL, Docker, Git
 
-Что показывает:
-- AI-боты поверх базы знаний
-- retrieval / knowledge base flow
-- подключение нескольких LLM-провайдеров
-- backend-архитектура
-- логи, тестирование и аналитика
+**AI and LLM:** OpenAI-compatible APIs, Claude API, Ollama, LangChain, RAG, embeddings, FAISS, vector search, prompt engineering, function calling, structured output
 
-### Neuro Prompt Studio
+**Bots and automation:** Aiogram, Telegram Bot API, API integrations, webhooks, async workflows
 
-Case study проекта для проектирования, тестирования и улучшения системных промптов.
+**Documents and media:** PDF, DOCX, OCR, Pandas, structured extraction, FFmpeg, audio and video processing
 
-Репозиторий:
-https://github.com/UFP-21/neuro-prompt-studio-case-study
+## How I approach projects
 
-Что показывает:
-- prompt engineering как инженерный процесс
-- мультиагентные сценарии
-- eval loop
-- controlled patching
-- регрессионная проверка поведения AI-агентов
+1. Clarify the business task and expected result.
+2. Design the workflow, data flow, and failure handling.
+3. Build the backend and connect the required models and services.
+4. Test realistic scenarios, weak points, and edge cases.
+5. Prepare the project for deployment, maintenance, and further development.
 
-## Дополнительно
+## Public repositories and private materials
 
-Часть проектов опубликована в showcase-формате. Приватные ключи, реальные данные, внутренние промпты и полный исходный код отдельных решений не публикуются.
+Some repositories contain complete public source code. Others are published as portfolio case studies because they include private product logic, internal prompts, sensitive data, or proprietary source materials.
 
-По запросу могу показать:
-- архитектурные схемы
-- демонстрационные видео
-- backend flow
-- описание RAG-логики
-- примеры сценариев тестирования AI-систем
+I do not publish API keys, `.env` files, real user data, private logs, proprietary documents, or FAISS indexes created from restricted materials.
+
+## Availability
+
+Available for freelance and contract work involving AI assistants, RAG systems, AI chatbots, Telegram bots, document processing, workflow automation, and Python backend development.
