@@ -2,6 +2,8 @@
 
 [English](README.md) | [Русский](README_RU.md)
 
+<!-- Portfolio profile repair: removes stale merge-conflict content and restores the bilingual profile. -->
+
 I build practical AI systems for real workflows: RAG assistants, AI chatbots, document-processing pipelines, Telegram bots, and Python backends for LLM applications.
 
 My work usually covers the full product flow: defining the logic, preparing the knowledge source, building the backend, integrating the model, testing failure cases, and preparing the solution for deployment.
